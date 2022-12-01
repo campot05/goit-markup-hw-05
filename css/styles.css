@@ -610,6 +610,10 @@ button {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.portfolio-link:focus .portfolio-overlay {
+  transform: translateY(0);
+}
+
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
